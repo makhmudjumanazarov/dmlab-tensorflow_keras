@@ -55,7 +55,7 @@ The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook
 <br/>
 
 
-## Stanford dogs - Streamlit - Demo
+## Stanford dogs - Streamlit - Demo 
 
 Stanford dogs via Streamlit 
 
