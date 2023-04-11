@@ -1,4 +1,4 @@
-## Dmlab  Dataset Classification
+# Dmlab  Dataset Classification
 -Transfer Learning using VGG19 CNN Model 
 
 -Building the CNN architecture from scratch
