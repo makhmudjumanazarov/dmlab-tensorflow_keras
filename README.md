@@ -17,15 +17,10 @@ Contents of the dataset:
 - Number of train images: 65550
 - Number of test images: 22375
 - Number of validation images: 22628
-- FeaturesDict({
-    'filename': Text(shape=(), dtype=string),
-    'image': Image(shape=(360, 480, 3), dtype=uint8),
-    'label': ClassLabel(shape=(), dtype=int64, num_classes=6),
-})
 
-Sample images of 9 different categories from the dataset:
+Sample images of 10 different categories from the dataset:
 
-![Images of Dogs](/images/dog_images.png)
+![Images of Dogs](/images/dmlab images.png)
 
 ### Getting Started
 The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
