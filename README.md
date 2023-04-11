@@ -13,11 +13,15 @@ The <a href= "https://www.tensorflow.org/datasets/catalog/dmlab">Dmlab dataset</
 
 ### Dataset
 Contents of the dataset:
-- Number of categories: 120
-- Number of images: 20,580
-- Annotations: Class labels, Bounding boxes
-
-The dataset can be downloaded from <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">here.</a>
+- Number of categories: 6
+- Number of train images: 65550
+- Number of test images: 22375
+- Number of validation images: 22628
+- FeaturesDict({
+    'filename': Text(shape=(), dtype=string),
+    'image': Image(shape=(360, 480, 3), dtype=uint8),
+    'label': ClassLabel(shape=(), dtype=int64, num_classes=6),
+})
 
 Sample images of 9 different categories from the dataset:
 
