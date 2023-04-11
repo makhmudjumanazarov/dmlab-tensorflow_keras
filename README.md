@@ -20,7 +20,7 @@ Contents of the dataset:
 
 Sample images of 10 different categories from the dataset:
 
-![Images of Dogs](/images/dmlab images.jpg)
+![Images of Dogs](/images/dmlab_images.jpg)
 
 ### Getting Started
 The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
