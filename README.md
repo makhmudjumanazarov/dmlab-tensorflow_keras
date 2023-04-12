@@ -52,7 +52,7 @@ python -m ipykernel install --user --name=dmlab
 <br/>
 <b>Step 5.</b> 
 <pre>
-The `dmlab.ipynb` notebook can be directly run on Jupyter Notebook
+The dmlab.ipynb notebook can be directly run on Jupyter Notebook
 </pre> 
 <br/>
 
