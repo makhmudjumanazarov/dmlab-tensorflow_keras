@@ -9,7 +9,7 @@ The <a href= "https://www.tensorflow.org/datasets/catalog/dmlab">Dmlab dataset</
 
 ![Images of dmlab](/images/vgg19_evaluate.jpg)
 
--Using Tensorflow, I built the architecture from scratch like exports' method. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 51% for 5 epochs on validation set. There is enough information for each class but the result is not good. This is a bad situation, but I don't understand why.
+-Using Tensorflow, I built the architecture from scratch like exports' method. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 51% for 5 epochs on validation set. There is enough information for each class but the result is not good. This situation is incomprehensible to me. If you have a better solution please share with me!!!
 
 ![Images of dmlab](/images/scratch_5_epochs.jpg)
 
