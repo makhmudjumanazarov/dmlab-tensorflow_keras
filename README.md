@@ -25,21 +25,21 @@ Sample images of 10 different categories from the dataset:
 ![Images of dmlab](/images/dmlab_images.jpg)
 
 ### Getting Started
-The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
+The `dmlab.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
 
 ### Steps
 <br />
-<b>Step 1.</b> Clone <a href= "https://github.com/makhmudjumanazarov/stanford_dogs.git">this repository </a>
+<b>Step 1.</b> Clone <a href= "https://github.com/makhmudjumanazarov/dmlab-tensorflow_keras.git">this repository </a>
 via Terminal, cmd or PowerShell
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
-python -m venv stanford_dogs
+python -m venv dmlab
 </pre> 
 <br/>
 <b>Step 3.</b> Activate your virtual environment
 <pre>
-source stanford_dogs/bin/activate # Linux
+source dmlab/bin/activate # Linux
 </pre>
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
@@ -47,18 +47,18 @@ source stanford_dogs/bin/activate # Linux
 python -m pip install --upgrade pip
 pip install -r requirements-gpu.txt # With Tensorflow GPU
 pip install ipykernel
-python -m ipykernel install --user --name=stanford_dogs
+python -m ipykernel install --user --name=dmlab
 </pre>
 <br/>
 <b>Step 5.</b> 
 <pre>
-The `stanford_dog.ipynb` notebook can be directly run on Jupyter Notebook
+The `dmlab.ipynb` notebook can be directly run on Jupyter Notebook
 </pre> 
 <br/>
 
 
-## Stanford dogs - Streamlit - Demo 
+## Dmlab - Streamlit - Demo 
 
-Stanford dogs via Streamlit 
+Dmlab via Streamlit 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/CIFAR100/main/app.py)
