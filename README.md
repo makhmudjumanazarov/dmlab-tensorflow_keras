@@ -6,6 +6,7 @@
 The <a href= "https://www.tensorflow.org/datasets/catalog/dmlab">Dmlab dataset</a> contains frames observed by the agent acting in the DeepMind Lab environment, which are annotated by the distance between the agent and various objects present in the environment. The goal is to is to evaluate the ability of a visual model to reason about distances from the visual input in 3D environments. The Dmlab dataset consists of 360x480 color images in 6 classes. The classes are {close, far, very far} x {positive reward, negative reward} respectively.
 
 -I have used the VGG19 CNN Model, which is pre-trained on the ImageNet dataset for classification. Data augementation hasn't been used for making the model generalize better. The model achieved an accuracy 53% on validation set. This is not a good situation, but I don't understand why.
+
 ![Images of Dogs](/images/vgg19_evaluate.jpg)
 
 -In last place,  I built vgg19 architecture from scratch via Tensorflow. I didn't use data augementation in this either for making the model generalize better. The model achieved an accuracy 1.25% for 10 epochs on validation set. This is a bad situation, but I don't understand why. I think there is not enough information for each class.
