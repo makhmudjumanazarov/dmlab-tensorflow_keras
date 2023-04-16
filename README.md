@@ -48,7 +48,7 @@ source dmlab/bin/activate # Linux
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
 <pre>
 python -m pip install --upgrade pip
-pip install -r requirements-gpu.txt # With Tensorflow GPU
+pip install -r requirements.txt # With Tensorflow GPU
 pip install ipykernel
 python -m ipykernel install --user --name=dmlab
 </pre>
@@ -64,4 +64,4 @@ The dmlab.ipynb notebook can be directly run on Jupyter Notebook
 
 Dmlab via Streamlit 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/CIFAR100/main/app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/CIFAR100/main/stream.py)
