@@ -25,7 +25,7 @@ Sample images of 10 different categories from the dataset:
 ![Images of dmlab](/images/dmlab_images.jpg)
 
 ### Model 
-Download the models through this <a href= "https://drive.google.com/drive/folders/1xtXVhnvILLKJkgOl0y8kzxyDWMv4tyL4?usp=sharing">link</a>
+Download the models through this <a href= "https://drive.google.com/file/d/1eujUxgPtbBHQKi9qBqpxKR3UyPelsvTv/view?usp=share_link">link</a>
 
 ### Getting Started
 The `dmlab.ipynb` notebook can be directly run on Jupyter Notebook or others. Use GPU for faster training and evaluation.
