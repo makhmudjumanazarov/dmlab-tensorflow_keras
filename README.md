@@ -64,4 +64,4 @@ The dmlab.ipynb notebook can be directly run on Jupyter Notebook
 
 Dmlab via Streamlit 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/CIFAR100/main/stream.py)
+streanlit run stream.py
