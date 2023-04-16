@@ -7,15 +7,11 @@ from PIL import Image
 
 
 # Load the trained model
-model_load = tf.keras.models.load_model('model')
+url = 'https://drive.google.com/file/d/1eujUxgPtbBHQKi9qBqpxKR3UyPelsvTv/view?usp=share_link'
+model_load = tf.keras.models.load_model(url)
 
 # Define the class labels
-labels = ['Apple_scab', 'Apple_black_rot', 'Apple_cedar_apple_rust', 'Apple_healthy', 'Background_without_leaves', 'Blueberry_healthy', 'Cherry_powdery_mildew', 
-          'Cherry_healthy', 'Corn_gray_leaf_spot', 'Corn_common_rust', 'Corn_northern_leaf_blight', 'Corn_healthy', 'Grape_black_rot', 'Grape_black_measles', 
-          'Grape_leaf_blight', 'Grape_healthy', 'Orange_haunglongbing', 'Peach_bacterial_spot', 'Peach_healthy', 'Pepper_bacterial_spot', 'Pepper_healthy', 
-          'Potato_early_blight', 'Potato_healthy', 'Potato_late_blight', 'Raspberry_healthy', 'Soybean_healthy', 'Squash_powdery_mildew', 'Strawberry_healthy', 
-          'Strawberry_leaf_scorch', 'Tomato_bacterial_spot', 'Tomato_early_blight', 'Tomato_healthy', 'Tomato_late_blight', 'Tomato_leaf_mold', 'Tomato_septoria_leaf_spot',
-          'Tomato_spider_mites_two-spotted_spider_mite', 'Tomato_target_spot', 'Tomato_mosaic_virus', 'Tomato_yellow_leaf_curl_virus']
+labels = ['label1', 'label2', 'label3', 'label4', 'label5', 'label6']
 
 # Get the uploaded image file
 img_file_buffer = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
