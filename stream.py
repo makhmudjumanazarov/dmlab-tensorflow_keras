@@ -7,7 +7,7 @@ from PIL import Image
 
 
 # Load the trained model
-model_load = tf.keras.models.load_model(url)
+model_load = tf.keras.models.load_model('model_vgg19.h5')
 
 # Define the class labels
 labels = ['label1', 'label2', 'label3', 'label4', 'label5', 'label6']
